@@ -1,0 +1,669 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #EAD99C;
+    font-family: sans-serif, Arial, Helvetica;
+}
+body
+{
+    background-color: #706868;
+}
+header
+{
+    background-color: #706868;
+}
+span
+{
+    margin-right: 8px;
+    color: #EAD99C;
+    background-color: black;
+}
+
+md-48
+{
+    font-size: 48px;
+}
+
+
+#Logo,#Logo img
+{
+    width: 90px;
+    height: 56px; 
+    background-color: black;
+}
+
+#Menu
+{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+nav
+{
+    display: none;
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background-color: black;
+    text-align: right;
+    padding: 34% 0px 0 0;
+    border-radius: 5%;
+}
+
+nav a
+{
+    color:#EAD99C;
+    background-color: black;
+}
+
+li
+{
+   list-style: none;
+   margin: 14px;
+   background-color: black;
+}
+
+ul
+{
+    background-color: black;
+}
+
+#loop
+{
+    width: 448px;
+    height: 630px;
+    position: relative;   
+}
+
+video
+{
+    width: 448px;
+    height: 630px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;   
+}
+
+#loop img
+{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 20%;
+    background-color: transparent;
+}
+
+.jogueagora
+{   
+    align-self: center;
+    margin-left: 25%;
+    background-color: transparent;
+    margin-bottom: 20%;       
+}
+.jogueagora button
+{
+    font-size: 20px;
+    background-color: #907847;
+    padding: 5%;
+    border-radius: 12%;
+
+
+}
+
+#box3 img
+
+   {
+    width: 100%;
+    height: 40px;
+    padding-top: 0;
+    background-color: transparent;
+    margin-left: 0;
+    }
+  
+#box2 img
+    {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    padding-top: 0;
+    }
+
+    #box1 img
+    {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    padding-top: 0;
+    margin-right: 0;
+    }   
+
+    #loop #plataforma
+    {
+        max-width: 420px;
+        max-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        background-color: transparent;
+        
+                   
+    }
+
+#texto{
+
+    position: absolute;
+    background-color: transparent;
+    justify-content: space-between;
+    margin: 15%;
+    align-items: center;
+  
+}
+
+.Artigo
+{
+    max-width: 448px;
+    max-height: 630px;
+    padding: 40px 16px;
+    background-color: #706868;
+}
+
+h1
+{
+    text-align: center;
+    width: 416px;
+    height: 110px;
+    font-size: 36px;
+}
+
+p
+{
+    width: 416px;
+    height: 135px;
+    text-align: center;
+    margin-top: 16px;
+}
+.img
+{
+    width: 416px;
+    height: 234px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5%;
+}
+
+#Conteudo2 h1
+{
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+.saibamais
+{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.saibamais button
+{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 16px;
+    background-color: #907847;
+    padding: 5%;
+    border-radius: 12%;
+}
+#Conteudo3
+{
+    margin-top: 24px;
+    height: 500px;
+}
+.galeria
+{
+    width: 416px;
+    height: 300px;
+    overflow:hidden;
+    overflow: scroll;
+    align-items: flex-start;    
+}
+.galeria .fotos
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.galeria .fotos img
+{
+    margin: 0 36px 0 36px;
+}
+
+#Conteudo4 img
+{
+    margin-top: 20px;
+}
+
+#Conteudo4 .saibamais
+{
+    margin-top: 20px;
+}
+
+#Conteudo5 img
+{
+    margin-top: 20px;
+}
+
+#banner
+{
+    width: 448px;
+    height: 235px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    margin-top: 240px;
+}
+#banner img
+{
+    width: 448px;
+    height: 240px;
+    position: absolute;
+    object-fit: cover;   
+}
+
+h2
+{
+    width: 100%;
+    height: 30%;
+    color: #F6F2E3;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(244, 237, 211, 0.25);
+    position: absolute;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.25);
+    margin-top: 10%;
+}
+
+#banner .jogueagora
+{
+    position: absolute;
+    margin-right: 25%;
+    margin-top: 45%;
+}
+
+#contatos
+{
+    width: 448px;
+    height: 120px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+#icones img
+{
+    width: 48px;
+    height: 48px;
+}
+#icones
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20% 0 20%;
+
+}
+
+h3
+{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 250px;
+    padding-right: 5%;
+    background-color: #706868;
+    
+}
+
+
+footer img
+{
+    width: 128px;
+    height:150px;
+}
+h4
+{
+    text-align: center;
+    font-size: 12px;
+    padding: 10%;
+    
+
+}
+
+@media screen and (min-width: 1024px)
+{   
+    #menuHam{
+        display: none;
+    }
+
+    #Logo
+    {
+        overflow: hidden;
+        width: 10%;      
+    }
+
+    #Logo img{
+        width: 100%;
+             
+    }
+
+    #Menu
+    {
+        max-height: 72px;
+               
+    }
+    nav a
+    {
+    color:#EAD99C;
+    background-color: black;
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        z-index: 0;
+        padding: 0;
+        text-align: right;
+        background-color:black;
+    }
+
+    li{
+        display: inline;
+        margin-left: 24px;
+        
+    }
+
+    #x{
+        display: none;
+    }
+    
+    #loop
+    {
+        width: 100%;
+        height: 630px;
+        position: relative;   
+    }
+    
+    video
+    {
+        width: 100%;
+        height: 630px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;   
+    }
+    
+    #loop img
+    {
+        width: 35%;
+        height: 260px;
+        padding: 0%;
+        margin-bottom: 0;
+        background-color: transparent;
+    }
+    
+    .jogueagora
+    {   
+        align-self: center;
+        margin-left: 0;
+        background-color: transparent;
+        margin-bottom: 16px;       
+    }
+    .jogueagora button
+    {
+        font-size: 20px;
+        background-color: #907847;
+        padding: 5%;
+        border-radius: 12%;
+    
+    
+    }
+    
+    
+    
+    #box3 img
+    {
+    width: 100%;
+    height: 100px;
+    padding-top: 0;
+    background-color: transparent;
+    margin-left: 0;
+    }
+    #box2 img
+    {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    padding-top: 0;
+    }
+
+    #box1 img
+    {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    padding-top: 0;
+    margin-right: 0;
+    }   
+
+    #loop #plataforma
+    {
+        max-width: 100%;
+        max-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+                   
+    }
+    
+    #texto
+    {
+    
+        position: absolute;
+        background-color: transparent;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+      
+    }
+
+    .Artigo
+    {
+        max-width: 100%;
+        max-height: 592px;
+        
+        margin-top: 60px;
+        margin-bottom: 100px;
+
+        
+    } 
+    #Conteudo1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }  
+
+    #Conteudo1 img
+    {
+        margin-top: 0;
+        width: 689px;
+        height: 387px;
+    }
+
+    #Conteudo2
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction: row-reverse;
+        padding-left: 5%;
+        padding-right: 10%; 
+    }
+    #Conteudo2 img
+    {
+        margin-top: 0;
+        width: 689px;
+        height: 387px;
+    }
+    #texto2
+    {
+        padding-top: 36px;
+    }
+    #Conteudo3
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center; 
+    }
+    .galeria
+    {
+        width: 960px;
+        height: 100%;
+        overflow:hidden;
+        overflow: auto;
+
+    }
+
+    #Conteudo4
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction: row-reverse;
+        padding-left: 5%;
+        padding-right: 10%; 
+    }
+    #Conteudo4 img
+    {
+        margin-top: 0;
+        width: 689px;
+        height: 387px;
+    }
+    #texto4 
+    {
+        padding-top: 36px;
+        
+    }
+    #Conteudo5
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        padding-left: 5%;
+        padding-right: 15%; 
+    }
+    #Conteudo5 img
+    {
+        margin-top: 0;
+        width: 689px;
+        height: 387px;
+        
+    }
+    #Conteudo5 h1
+    {
+        margin-right: 0;
+        padding-left: 120%;
+        overflow: visible;
+        position: relative;
+        
+    }
+    #Conteudo5 p
+    {
+        padding-top: 10%;
+    }
+
+    #banner, #banner img
+    {
+        width: 100%;
+        height: 960px;
+        margin-top: 36px;
+           
+    }
+    
+    h2
+    {
+        width: 100%;
+        height: 30%;
+        color: #F6F2E3;
+        text-align: center;
+        font-size: 120px;
+        background-color: rgba(244, 237, 211, 0.25);
+        position: absolute;
+        text-shadow: 4px 4px 0px rgba(0,0,0,0.25);
+        margin-top: 10%;
+    }
+    
+    #banner .jogueagora
+    {
+        position: absolute;
+        margin-right: 0;
+        margin-top: 25%;
+    }
+
+
+    #contatos
+    {
+        width: 100%;
+        height: 460px;
+        display: block;
+        align-content: center;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    #icones img
+    {
+        width: 48px;
+        height: 48px;
+    }
+    #icones
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 35% 0 35%;
+
+    }
+
+    h3
+    {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
