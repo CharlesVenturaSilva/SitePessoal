@@ -11,6 +11,7 @@ body
 header
 {
     background-color: #706868;
+
 }
 span
 {
@@ -38,7 +39,7 @@ md-48
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 56px;
+    height: 4rem;
 }
 
 nav
@@ -108,12 +109,22 @@ video
 .jogueagora button
 {
     font-size: 20px;
-    background-color: #907847;
+    background-color:rgba(255, 255, 255, 0.255);
     padding: 5%;
     border-radius: 12%;
 
 
 }
+.jogueagora button:hover
+{
+    cursor: pointer;
+    color: whitesmoke ;
+    transition: 1s;
+    background-color:rgba(255, 255, 255, 0.255);
+}
+
+
+
 
 #box3 img
 
@@ -217,6 +228,7 @@ p
     padding: 5%;
     border-radius: 12%;
 }
+
 #Conteudo3
 {
     margin-top: 24px;
@@ -359,10 +371,17 @@ h4
     #menuHam{
         display: none;
     }
+    header
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
 
     #Logo
     {
-        overflow: hidden;
+        
         width: 10%;      
     }
 
@@ -373,7 +392,14 @@ h4
 
     #Menu
     {
-        max-height: 72px;
+        height: 6rem;
+        position: fixed;
+        z-index: 1;
+        width: 95%;
+        background-color: black;
+        opacity: 70%;
+        border-radius: 15px;
+        
                
     }
     nav a
@@ -405,7 +431,8 @@ h4
     {
         width: 100%;
         height: 630px;
-        position: relative;   
+        position: relative; 
+        margin-top: -20px; 
     }
     
     video
@@ -494,6 +521,7 @@ h4
         width: 100%;
         align-items: center;
         margin: 0;
+        margin-top: 40px;
       
     }
 
@@ -558,6 +586,13 @@ h4
         overflow:hidden;
         overflow: auto;
 
+    }
+    .saibamais button:hover
+    {   
+        cursor: pointer;
+        color: whitesmoke ;
+        transition: 1s;
+        background-color:rgba(255, 255, 255, 0.255);
     }
 
     #Conteudo4
